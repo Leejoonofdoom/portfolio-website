@@ -16,7 +16,7 @@
         <header class="top-nav">
             <div class="nav-left">
             <a class="logo" href="./index.html"><img src="./images/logo.jpeg" alt="My logo"/></a>
-            <a href="#projects" class="nav-item">
+            <a href="index.html" class="nav-item">
                 <i class="fa-solid fa-chevron-left"></i>
                 <li>Back to home</li>
             </a>
@@ -25,15 +25,15 @@
             
             <nav>
                 <ul class="nav-links">
-                    <a href="#projects" class="nav-item">
+                    <a href="index.html#projects" class="nav-item">
                         <i class="fa-solid fa-briefcase"></i>
                         <li>Projects</li>
                     </a>
-                    <a href="#resume" class="nav-item">
+                    <a href="aboutme.html#resume" class="nav-item">
                         <i class="fa-solid fa-file"></i>
                         <li>Resume</li>
                     </a>
-                    <a href="#about-me" class="nav-item">
+                    <a href="aboutme.html" class="nav-item">
                         <i class="fa-solid fa-user-tie"></i>
                         <li>About me</li>
                     </a>
@@ -48,9 +48,9 @@
                 <nav class="hamburger-container">
                     <span class="close-menu">&times;</span>
                     <ul class="mobile-nav-links">
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="aboutme.html#resume">Resume</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
                     </ul>
                 </nav>
                 <div class="menu-backdrop"></div>
@@ -77,7 +77,7 @@
                     </div>
         
                     <div class="about-me-blurb">
-                        <img src="./images/about-me/about-me.jpg" alt="My photo" class="lightbox-trigger"/>
+                        <img src="./images/about-me/about-me.jpg" alt="My photo" style="cursor: auto;"/>
                         
                         <p class="about-me-description"> I’ve been a part of many amazing design teams developing for a variety of industries. Currently, I am designing experiences at Shutterstock for their two-sided ecommerce and contributor marketplace. Previously, I developed enterprise experiences for advisors and investors at J.P. Morgan Chase & Co. and I consulted with the Coach USA bus company helping them build a digital strategy for web and mobile.
                         <br><br>
@@ -91,7 +91,7 @@
             </div>
 
         <!-- WORK EXPERIENCE SECTION -->
-        <section class="project-section">
+        <section class="project-section" id="resume">
             <div class="project-section-header-description">
                 <h2 class="project-section-header">Work experience</h2>
                 
@@ -356,9 +356,20 @@
             </div>
                 
             <div class="other-projects">
-                                
+                
+                <!-- SSTK -->
+                <a href="./sstk.html" class="link-jpmc-container">
+                    <div class="sstk">
+                        <div class="other-projects-images">
+                            <img src="./images/sstk.jpg" alt="JPMC Image" class="jpmc-image">
+                        </div>  
+                        <h2 class="other-projects-title">Shutterstock</h2>
+                        <p class="other-projects-description"> Connected customers to their desired content faster and removed friction from the submitting content for contributors</p>
+                    </div>
+                </a>
+
                 <!-- JPMC -->
-                <a href="./jpmc" class="link-jpmc-container">
+                <a href="./jpmc.html" class="link-jpmc-container">
                     <div class="jpmc">
                         <div class="other-projects-images">
                             <img src="./images/jpmc.jpeg" alt="JPMC Image" class="jpmc-image">
@@ -367,20 +378,9 @@
                         <p class="other-projects-description">Increased our advisors' productivity by streamlining their tools in a web of interconnected applications</p>
                     </div>
                 </a>
-                
-                <!-- COACH -->
-                <a href="./sstk" class="link-coach-container">
-                    <div class="coach">
-                        <div class="other-projects-images">
-                            <img src="./images/coach.jpeg" alt="Coach Image" class="coach-image">  
-                        </div>
-                        <h2 class="other-projects-title">Coach USA</h2>
-                        <p class="other-projects-description"> Revamped their ticket fares website and created a commuter mobile app.</p>
-                    </div>
-                </a>
 
                 <!-- FOSSIL -->
-                <a href="./fossil" class="link-fossil-container">
+                <a href="./fossil.html" class="link-fossil-container">
                     <div class="fossil">
                         <div class="other-projects-images">
                             <img src="./images/fossil.jpg" alt="Fossil Image" class="fossil-image">  

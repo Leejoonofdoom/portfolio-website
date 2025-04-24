@@ -348,7 +348,6 @@ main {
     text-align: left;
     align-items: center;
     width: 1000px;
-    
 }
 
 .about-me-blurb {
@@ -1414,4 +1413,77 @@ main {
     .footer li {
         font-size: 0.8rem;
     }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0px 16px;
+    }
+
+    .about-me-blurb {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-me-blurb img {
+        border-radius: 16px;
+        height: 300px;
+        width: auto;
+    }
+
+    .about-me-description {
+        margin-top: 16px;
+        font-weight: 300;
+        font-size: 1em;
+        padding: 0px;
+    }
+
+
+    .work-experience-section {
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        justify-content: center;
+        max-width: 100%;
+        border-bottom: 1px solid #000;
+    }
+
+    .work-title {
+        width: 100%;
+        padding: 16px;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+    .work-details {
+        width: 100%;
+        padding: 16px;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+    .skills-tools-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        padding: 16px;
+    }
+    
+    .skills-tools-details {
+        margin-top: 16px;
+        font-weight: 300;
+        font-size: 1.2em;
+        line-height: 2;
+    }
+
 } 
+
