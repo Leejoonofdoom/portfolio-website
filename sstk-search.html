@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Lee's Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div class="grid-container">
+            
+        <!-- Header (Top Nav) -->
+        <header class="top-nav">
+            <div class="nav-left">
+            <a class="logo" href="./index.html"><img src="./images/logo.jpeg" alt="My logo"/></a>
+            <a href="#projects" class="nav-item">
+                <i class="fa-solid fa-chevron-left"></i>
+                <li>Back to Shutterstock</li>
+            </a>
+
+            <p class="fade-text">Search + Discovery</p>
+            </div>
+            
+            <nav>
+                <ul class="nav-links">
+                    <a href="#projects" class="nav-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <li>Projects</li>
+                    </a>
+                    <a href="#resume" class="nav-item">
+                        <i class="fa-solid fa-file"></i>
+                        <li>Resume</li>
+                    </a>
+                    <a href="#about-me" class="nav-item">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <li>About me</li>
+                    </a>
+                </ul>
+            </nav>
+            </header>
+
+            <!-- MOBILE NAVIGATION -->
+            <div class="mobile-menu">
+                <a class="logo" href="./index.html"><img src="./images/logo.jpeg" alt="My logo"/></a>
+                <button class="hamburger">☰</button>
+                <nav class="hamburger-container">
+                    <span class="close-menu">&times;</span>
+                    <ul class="mobile-nav-links">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-backdrop"></div>
+            </div>
+
+            <!-- Side navigaion -->
+            <div class="side-nav">
+                <a href="https://joshjoonlee.com/sstk" class="side-nav-link">Shutterstock</a>
+            </div>
+
+            
+         <!-- Main Content -->
+        <main class="content">
+                
+            <!-- Project summary -->
+            <div class="top-summary">
+                
+                <div class="summary-header-description">
+                    <h2 class="summary-header">A NEW SEARCH EXPERIENCE</h2>
+                    <p class="summary-description">Developed a creative search and refining experience helping customers find the content they want faster.</p>
+                </div>
+                
+                <img src="./images/search/refinements.jpg" alt="My logo" class="lightbox-trigger"/>
+
+                <!-- Lightbox Markup (only once in your HTML) -->
+                <div class="lightbox">
+                    <div class="lightbox-content">
+                        <div class="lightbox-image-wrapper">
+                        <img src="" alt="Enlarged image" class="full-image">
+                        <span class="close">&times;</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="summary-details">
+                    <div class="detail-items">
+                        <p>My role</p>
+                        <h3>Design lead</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Duration</p>
+                        <h3>1 year</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Activities</p>
+                        <h3>UX/UI design, user research, design handoff</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Platform</p>
+                        <h3>Desktop-web, mobile-web</h3>
+                    </div>
+                </div>
+            </div>
+
+        <!-- OVERVIEW SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Overview</h2>
+                <p class="project-section-description"> Shutterstock connects customers to the content they need, so they can create their next big idea. As part of the search team, we strived to innovative the search experience. In a typical search, a user enters their query and then lands on a search results page. Ours was no different. 
+                <br><br>
+                Continue reading to find out how we identified the specific focus area in the search journey and what solutions we produced.</p>
+            </div>
+        </section>
+
+        <!-- RESEARCH SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Research</h2>
+                <p class="project-section-description">Through funnel analyses and other data points, we discovered the search traffic declining steadily quarter-by-quarter by roughly 3-5% in major categories such as paid order rate, search usage and signups. Our customers were searching less and abandoning due to not finding what they want. We investigated further through user research. The focus was to understand the user's search behavior, goals within searching, and pain points throughout the search journey.</p>
+            </div>
+            
+            <div class="subsection">
+                <h2 class="subsection-header">RESEARCH ACTIVITIES</h2> 
+                <div class="project-section-one-image">
+                
+                <img src="./images/search/research.jpg" alt="research activities" class="research-image lightbox-trigger">
+                
+            </div>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">RESEARCH FINDINGS</h2>
+
+                <ul class="project-section-description">
+                    <li>The main problem we uncovered was users constantly yo-yoing back-and-forth between tweaking their search and scrolling through results over and over again because they couldn't find what they are looking for and ultimately abandon.</li>
+                    <li>Surprisingly, users barely used filters to refine their searches.</li>
+                    <li>Over 70% of user's first action from the search results page after scrolling through the results was clicking on the search bar to edit their query.</li>
+                    <li>Users generally have a vague idea of what they are looking for but they don’t know how to describe it.</li>
+                  </ul>
+
+                  <p class="project-section-description">We identified that the beginning of the flow lies the biggest area of opportunity. The specific spot we identified was between clicking the search bar and landing on the search results page.</p>
+            </div>
+
+        </section>
+    
+         <!-- RESEARCH QUESTION SECTION -->
+         <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">How might we present a more explorative and refined view to reduce the amount of back and forth and ultimately guide the user to exactly what they are looking for?</h2>
+            </div>
+
+        </section>
+
+        <!-- DESIGN WORKSHOP SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">DESIGN WORKSHOP</h2>
+                <p class="project-section-description">I facilitated a 3 day design studios workshop with our search team where we took the time to understand the problem through data and research we prepared beforehand. During our synthesis, we found a clear winning problem to solve for along with secondary problems that we documented to follow up on later.</p>
+            </div>
+            
+            <div class="project-section-two-images">
+                <div class="project-section-images">
+                
+                    <img src="./images/search/workshop.jpg" alt="design workshop" class="design-workshop-image lightbox-trigger">
+
+                    <p class="other-projects-description">We placed the most voted ideas within a priority tree with the main idea at the top along with secondary ideas below it.</p>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">OUTCOME</h2>
+                <p class="project-section-description">The specific problem we clearly wanted to  focus on was at the beginning of the journey. If we can provide a more refined view of categorized assets before landing on the unorganized search results page, the user will find their asset sooner reducing the number of revisits to the search bar.</p>
+
+                <div class="project-section-images">
+                    <!--
+                    <p class="insert-text"> <strong>Insert new solution between here</strong>
+                    </p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                -->
+
+                <div class="project-section-two-images">
+
+                    <div class="project-section-images">
+                    
+                        <img src="./images/search/home.jpg" alt="Shutterstock home" class="sstk-home-image lightbox-trigger">
+    
+                        <p class="other-projects-description">Home page search
+                        </p>
+                    </div>
+                    
+                    <div class="insert-container">
+
+                        <p class="insert-text"> <strong>Insert new solution here</strong>
+                        </p>
+                        <!--<i class="fa-solid fa-chevron-down"></i> -->
+                    </div>
+                    
+                    <div class="project-section-images">
+                
+                        <img src="./images/search/srp.jpg" alt="JPMC Image" class="srp-image lightbox-trigger">
+                    
+                        <p class="other-projects-description">Search results page
+                        </p>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        
+        </section>
+
+
+        <!-- DESIGN EXPLORATIONS SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">DESIGN EXPLORATIONS</h2>
+                <p class="project-section-description">I took the learnings and ideas from the workshop and I started brainstorming from simple fixes to complex interaction patterns. Based on feedback and time, we decided to pursue the simplest interaction design since the concept would be fairly new to users showing refinements during their typeahead search experience.</p>
+            </div>
+
+            <div class="project-section-two-images">
+                
+                <div class="project-section-images">
+                
+                    <img src="./images/search/home-wireframe.jpg" alt="Shutterstock homepage wireframe" class="home-wireframe-image lightbox-trigger">
+                    
+                    <p class="other-projects-description">Homepage
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+                    
+                    <img src="./images/search/search-empty-state.jpg" alt="search empty state" class="search-empty-state-image lightbox-trigger">
+                
+                    <p class="other-projects-description">Search empty state
+                    </p>
+                </div>
+                
+                <div class="project-section-images">
+                    
+                    <img src="./images/search/refinements-wireframe.jpg" alt="refinements wireframe" class="refinements-wireframe-image lightbox-trigger">
+                
+                    <p class="other-projects-description">New refinements overlay
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+                    
+                    <img src="./images/search/srp-wireframe.jpg" alt="search results page wireframe" class="srp-wireframe-image lightbox-trigger">
+                
+                    <p class="other-projects-description">Search results page
+                    </p>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">OTHER COMPLEX REFINEMENT IDEAS NOT CONSIDERED</h2>
+                <p class="project-section-description">There were concerns around the interaction patterns being too unfamiliar and hard to learn and technically difficult to develop within the tight deadline.</p>
+
+
+                <div class="project-section-two-images">
+
+                    <div class="project-section-images">
+                    
+                        <img src="./images/search/search-suggestions.jpg" alt="Search suggestions" class="search-suggestions-image lightbox-trigger">
+    
+                        <p class="other-projects-description">Search suggestions realized
+                        </p>
+                    </div>
+                    
+                    <div class="project-section-images">
+                
+                        <img src="./images/search/three-column.jpg" alt="three column refinements wireframe" class="srp-image lightbox-trigger">
+                    
+                        <p class="other-projects-description">3 column previews
+                        </p>
+                    </div>
+
+                    <div class="project-section-images">
+                
+                        <img src="./images/search/dating-app.jpg" alt="dating app concept refinements Image" class="srp-image lightbox-trigger">
+                    
+                        <p class="other-projects-description">Dating app inspired idea. Rate the images and then get a refined set of results based on selections
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!-- USER TESTING RESULTS SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">User testing results</h2>
+                <p class="project-section-description">After many internal discussions and design critiques, I ran the design through usability testing to ensure the experience was worth building and to garner a sample size of user sentiment towards the new experience. The method I used was unmoderated interviews via UserZoom externally and moderated with internal teams due to time constraints.</p>
+            </div>
+
+
+            <div class="subsection">
+                <h2 class="subsection-header">Learnings</h2>
+                <p class="project-section-description">Overall, users had an overwhelmingly positive response with the addition of an empty state that conveniently contained their past history. For the top refinements screen, participants expressed words such as unique, helpful, “gives them an edge in seeing more, better images”, and useful. I incorporated all of the top feedback into the final designs.
+                <br><br>
+                Below is one specific learning that had to be addressed going back to what I previously mentioned about how users first click on the search bar after scrolling.    
+                </p>
+                
+                <div class="subsection">
+
+                    <h3> Question:
+                        <br>
+                        Where else would you click to go back to the "Top refinements" screen?
+                    </h3>
+                    
+                </div>
+
+                <div class="project-section-two-images">
+
+                    <div class="project-section-images">
+                    
+                        <img src="./images/search/home.jpg" alt="Shutterstock home" class="sstk-home-image lightbox-trigger">
+    
+                        <p class="other-projects-description">Because a user's first inclination is to click back on the search bar to perform another search, I thought it made sense to have them return to the top refinements this way but majority of the participants had low confidence in this task and it showed with a 0% success rate. They were close but they did not click where we expected them to.
+                        </p>
+                    </div>
+    
+                    <div class="project-section-images">
+                
+                        <img src="./images/search/srp.jpg" alt="Search results page Image" class="srp-image lightbox-trigger">
+                    
+                        <p class="other-projects-description">The obvious solution that we went with was adding a "Back to top refinements" button in addition to clicking the search bar to return to the new experience that made it very clear on how to go back to the previous view if they wanted to explore a different option.
+                        </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ENGINEER HANDOFF SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Engineer handoff</h2>
+                <p class="project-section-description">Our engineer team was involved starting from participating in the design workshop to reviewing wireframes and providing feedback on feasibility to design handoff. We were in constant communication and I provided extensive documentation of the functionality, spacing, and all of the edge cases which there were many for this new experience.
+                </p>
+            </div>
+
+            <div class="project-section-two-images">
+
+                <div class="project-section-images">
+                
+                    <img src="./images/search/handoff-left.jpg" alt="Shutterstock home" class="sstk-home-image lightbox-trigger">
+
+                    <p class="other-projects-description">I specified what each element is and what happens when a user interacts with it.
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+            
+                    <img src="./images/search/handoff-right.jpg" alt="JPMC Image" class="srp-image lightbox-trigger">
+                
+                    <p class="other-projects-description">I specified the spacing between the elements for each major screen.
+                    </p>
+                </div>
+                
+            </div>
+
+            <div class="project-section-two-images">
+
+                <div class="project-section-images">
+                
+                    <img src="./images/search/handoff-flow.jpg" alt="Shutterstock home" class="sstk-home-image lightbox-trigger">
+
+                    <p class="other-projects-description">I mapped out each edge case and user flow clearly indicating how a user would navigate the experience.
+                    </p>
+                </div>
+
+
+                
+            </div>
+            
+        </section>
+
+
+        <!-- FINAL DESIGNS SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Final designs</h2>
+            </div>
+
+            <div class="project-section-two-images">
+                
+                <div class="project-section-images">
+                
+                    <img src="./images/search/home-final.jpg" alt="Shutterstock homepage final" class="home-final-image lightbox-trigger">
+                    
+                    <p class="other-projects-description">Homepage
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+                    
+                    <img src="./images/search/search-empty-state-final.jpg" alt="search empty state" class="search-empty-state-final-image lightbox-trigger">
+                
+                    <p class="other-projects-description">Search empty state
+                    </p>
+                </div>
+                
+                <div class="project-section-images">
+                    
+                    <img src="./images/search/refinements-final.jpg" alt="refinements final" class="refinements-final-image lightbox-trigger">
+                
+                    <p class="other-projects-description">New refinements overlay
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+                    
+                    <img src="./images/search/srp-final.jpg" alt="search results page final" class="srp-final-image lightbox-trigger">
+                
+                    <p class="other-projects-description">Search results page
+                    </p>
+                </div>
+            </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">Conclusion</h2>
+                    <p class="project-section-description">Currently, the project is in development and I've been supporting the engineers with any updates we have to make along with communicating with the Content team on how we plan on launching this and communicating with our customers.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">Success metrics</h2>
+
+                    <ul class="project-section-description">
+                        <li>Paid order rate</li>
+                        <li>License rate</li>
+                      </ul>
+                </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">1. Results</h2>
+
+                    <div class="all-results">
+
+                        <div class="results">
+                            <h1>+7%</h1>
+                            <p>Increase in paid order rate
+                            </p>
+                        </div>
+
+                        <div class="results">
+                            <h1>+3%</h1>
+                            <p>Increase in license rate
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">2. What I would've done differently </h2>
+
+                    <ul class="project-section-description">
+                        <li>Be extra vocal with communicating the progress of the project with senior leadership.</li>
+                        <li>Because it is so new and different, I would've garnered even more buy-in from tertiary teams beyond Product, engineering, and Content teams ensuring everyone is properly aligned.</li>
+                      </ul>
+                </div>
+
+        </section>
+
+
+
+
+
+
+        
+
+
+
+
+                
+        <!-- OTHER PROJECTS -->
+        <section class="other-projects-container">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">More Projects</h2>
+            </div>
+                
+            <div class="other-projects">
+                                
+                <!-- JPMC -->
+                <a href="./jpmc" class="link-jpmc-container">
+                    <div class="jpmc">
+                        <div class="other-projects-images">
+                            <img src="./images/jpmc.jpeg" alt="JPMC Image" class="jpmc-image">
+                        </div>  
+                        <h2 class="other-projects-title">J. P. Morgan Chase</h2>
+                        <p class="other-projects-description">Increased our advisors' productivity by streamlining their tools in a web of interconnected applications</p>
+                    </div>
+                </a>
+                
+                <!-- COACH -->
+                <a href="./sstk" class="link-coach-container">
+                    <div class="coach">
+                        <div class="other-projects-images">
+                            <img src="./images/coach.jpeg" alt="Coach Image" class="coach-image">  
+                        </div>
+                        <h2 class="other-projects-title">Coach USA</h2>
+                        <p class="other-projects-description"> Revamped their ticket fares website and created a commuter mobile app.</p>
+                    </div>
+                </a>
+
+                <!-- FOSSIL -->
+                <a href="./fossil" class="link-fossil-container">
+                    <div class="fossil">
+                        <div class="other-projects-images">
+                            <img src="./images/fossil.jpg" alt="Fossil Image" class="fossil-image">  
+                        </div>
+                        <h2 class="other-projects-title">Fossil</h2>
+                        <p class="other-projects-description">Reimagined how users customize their hybrid smartwatch</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+
+
+
+        
+            </main>
+   
+
+        
+
+    <!-- Footer -->
+
+   <footer class="footer">
+    <nav>
+        <ul class="nav-links">
+            <a href="mailto:joshjoonlee@gmail.com" class="nav-item">
+                <i class="fa-light fa-at"></i>
+                <li>Email me</li>
+            </a>
+            <a href="https://www.linkedin.com/in/joshualeeux" class="nav-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <li>LinkedIn</li>
+            </a>
+        </ul>
+    </nav>
+    
+    <p class="footer-copyright">&copy; 2025 Joshua Lee • All rights reserved</p>
+    </footer>
+   
+   
+    </div>
+
+    <script>
+        // Get the lightbox and its content elements
+        const lightbox = document.querySelector('.lightbox');
+        const fullImage = document.querySelector('.full-image');
+        const closeButton = document.querySelector('.close');
+      
+        // Add event listeners to all lightbox-trigger images
+        document.querySelectorAll('.lightbox-trigger').forEach((img) => {
+          img.addEventListener('click', () => {
+            fullImage.src = img.src; // Set the full-image source to the clicked image's source
+            fullImage.alt = img.alt; // Set the alt text
+            lightbox.classList.add('show');
+          });
+        });
+      
+        // Close the lightbox when the close button is clicked
+        closeButton.addEventListener('click', () => {
+          lightbox.classList.remove('show');
+        });
+      
+        // Optional: Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox) {
+            lightbox.classList.remove('show');
+          }
+        });
+
+        // JavaScript for fade-in effect
+        const fadeText = document.querySelector('.fade-text');
+
+        window.addEventListener('scroll', () => {
+        // Define when the fade should start and stop
+        const startFade = 100; // Distance in pixels from the top to start fading
+        const endFade = 200;  // Distance in pixels from the top to finish fading
+        
+        // Get the current scroll position
+        const scrollY = window.scrollY;
+
+        // Calculate opacity based on scroll position
+        if (scrollY >= startFade && scrollY <= endFade) {
+            // Calculate the fade-in progress
+            const progress = (scrollY - startFade) / (endFade - startFade);
+            fadeText.style.opacity = progress; // Update opacity
+        } else if (scrollY < startFade) {
+            fadeText.style.opacity = 0; // Hide text when above startFade
+        } else if (scrollY > endFade) {
+            fadeText.style.opacity = 1; // Fully show text after endFade
+        }
+        });
+
+
+        // Select the hamburger button and menu container
+        const hamburger = document.querySelector('.hamburger');
+        const hamburgerContainer = document.querySelector('.hamburger-container');
+        const menuBackdrop = document.querySelector('.menu-backdrop');
+        const closeMenuButton = document.querySelector('.close-menu');
+        
+        // Function to toggle the menu
+        function toggleMenu() {
+            hamburgerContainer.classList.toggle('active');
+            menuBackdrop.style.display = hamburgerContainer.classList.contains('active') ? 'block' : 'none';
+        }
+
+        // Function to close the menu
+        function closeMenu() {
+            hamburgerContainer.classList.remove('active');
+            menuBackdrop.style.display = 'none';
+        }
+
+        // Function to close the menu if clicking outside the menu
+        function handleOutsideClick(event) {
+             if (!hamburgerContainer.contains(event.target) && !hamburger.contains(event.target)) {
+             hamburgerContainer.classList.remove('active');
+            }
+        }
+
+        // Event listeners
+        hamburger.addEventListener('click', toggleMenu);
+        closeMenuButton.addEventListener('click', closeMenu);
+        document.addEventListener('click', handleOutsideClick);
+        menuBackdrop.addEventListener('click', closeMenu);
+
+      </script>
+
+</body>
+</html>
+

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Lee's Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div class="grid-container">
+            
+        <!-- Header (Top Nav) -->
+        <header class="top-nav">
+            <div class="nav-left">
+            <a class="logo" href="./index.html"><img src="./images/logo.jpeg" alt="My logo"/></a>
+            <a href="#projects" class="nav-item">
+                <i class="fa-solid fa-chevron-left"></i>
+                <li>Back to Shutterstock</li>
+            </a>
+
+            <p class="fade-text">Contributor</p>
+            </div>
+            
+            <nav>
+                <ul class="nav-links">
+                    <a href="#projects" class="nav-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <li>Projects</li>
+                    </a>
+                    <a href="#resume" class="nav-item">
+                        <i class="fa-solid fa-file"></i>
+                        <li>Resume</li>
+                    </a>
+                    <a href="#about-me" class="nav-item">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <li>About me</li>
+                    </a>
+                </ul>
+            </nav>
+            </header>
+
+            <!-- MOBILE NAVIGATION -->
+            <div class="mobile-menu">
+                <a class="logo" href="./index.html"><img src="./images/logo.jpeg" alt="My logo"/></a>
+                <button class="hamburger">☰</button>
+                <nav class="hamburger-container">
+                    <span class="close-menu">&times;</span>
+                    <ul class="mobile-nav-links">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-backdrop"></div>
+            </div>
+
+            <!-- Side navigaion -->
+            <div class="side-nav">
+                <a href="https://joshjoonlee.com/sstk" class="side-nav-link">Shutterstock</a>
+            </div>
+
+            
+         <!-- Main Content -->
+        <main class="content">
+                
+            <!-- Project summary -->
+            <div class="top-summary">
+                
+                <div class="summary-header-description">
+                    <h2 class="summary-header">UPLOAD + SUBMIT CONTENT</h2>
+                    <p class="summary-description">Removed the friction from uploading and submitting content resulting in 23% increase in submissions</p>
+                </div>
+                
+                <img src="./images/contributor/portfolio1.jpg" alt="My logo" class="lightbox-trigger"/>
+
+                <!-- Lightbox Markup (only once in your HTML) -->
+                <div class="lightbox">
+                    <div class="lightbox-content">
+                        <div class="lightbox-image-wrapper">
+                        <img src="" alt="Enlarged image" class="full-image">
+                        <span class="close">&times;</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="summary-details">
+                    <div class="detail-items">
+                        <p>My role</p>
+                        <h3>Design lead</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Duration</p>
+                        <h3>1 year</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Activities</p>
+                        <h3>UX/UI design, user research, design handoff</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Platform</p>
+                        <h3>Marketplace, SaaS</h3>
+                    </div>
+                </div>
+            </div>
+
+        <!-- OVERVIEW SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Overview</h2>
+                <p class="project-section-description"> Shutterstock Contributor is a global marketplace that provides a platform for photographers and creators to showcase and sell their work. When the platform was redesigned several years ago, the uploading and submitting design was met with negative feedback as it did not meet user's expectations and they preferred our competitors' experiences.
+                <br><br>
+                In an effort to right the wrongs, I went back to the drawing board to redesign the experience from the ground up. The goal was to reduce friction between upload and submission to increase contributor submissions.</p>
+            </div>
+        </section>
+
+
+        <!-- CHALLENGES SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Challenges</h2>
+            </div>
+
+            <div class="project-section-two-images">
+                
+                <div class="project-section-images">
+                    <p class="project-section-description"> What contributors got instead</p>
+                
+                    <img src="./images/contributor/adobe-portfolio.jpg" alt="Adobe portfolio page" class="adobe-portfolio-image lightbox-trigger">
+
+                    <p class="other-projects-description">Editing directly within the grid view with a side panel on the right is an industry standard. Every competitor including Adobe Stock and Getty Images used this setup which users have grown accustom to and expect.
+
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+                    <p class="project-section-description"> What contributors got instead</p>
+                
+            
+                    <img src="./images/contributor/portfolio-modal.jpeg" alt="JPMC Image" class="portfolio-modal-image lightbox-trigger">
+                
+                    <p class="other-projects-description">We veered from the industry standard thinking a more focused approach editing in a popup modal would be better. Unfortunately, this caused much friction as it added more interactions to get to the same editing state and users couldn't switch between the assets as easily leading to frustration and resulting in low engagement.
+
+                    </p>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- DESIGN APPROACH SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Design approach</h2>
+                <p class="project-section-description"> Before I started any designing, I outlined a loose framework of what I wanted to accomplish and shared it with my product partner for buy-in and feedback.</p>
+            </div>
+
+            <div class="project-section-one-image">
+                 
+                <img src="./images/contributor/design-approach.jpg" alt="design approach" class="design-approach-image lightbox-trigger">
+                
+            </div>
+
+        </section>
+    
+         <!-- RESEARCH SECTION -->
+         <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Research</h2>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">Existing data</h2>
+                <p class="project-section-description">Together with my product partner, we gathered and reviewed all the data we could find including:</p>
+
+                <ul class="project-section-description">
+                    <li>Constructive feedback on uploading and submitting from several site surveys</li>
+                    <li>Content submission data whic showed a steady decline of a couple hundred thousand every month</li>
+                    <li>Only 16% of active contributors have submitted at least 1 asset in the past 12 months</li>
+                  </ul>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">User research</h2>
+                <p class="project-section-description">I conducted a handful of moderated interviews with contributors of varying levels of experience. Through these interviews, we gained valuable insights into their habits, challenges, and needs, including:</p>
+
+                <ul class="project-section-description">
+                    <li><strong>Differing uploading methods:</strong> ranging from onsite uploading, to FTP bulk file uploading, to using 3rd party tools to manage everything from uploading, editing to submitting.</li>
+                    <li><strong>Using AI for editing content:</strong> Numerous contributors use AI to enhance their descriptions and to generate unique keywords.</li>
+                    <li><strong>Quality of life improvements:</strong> There's missing functionality from the redesign such as filtering their view and the ability to re-submit rejected assets easily</li>
+                  </ul>
+
+                  <p class="project-section-description">These findings validated and complimented the existing research we found especially in the survey results.</p>
+            </div>
+
+        </section>
+
+        <!-- SYNTHESIZE AND MODEL SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Synthesize + Model</h2>
+                <p class="project-section-description"> Before jumping into designs, I created a visual diagram to document the findings from research and to illustrate to stakeholders on which areas we should prioritize in reducing friction during content submission.</p>
+            </div>
+            
+            <div class="project-section-one-image">
+                <img src="./images/contributor/synthesize.jpg" alt="synthesize image" class="synthesize-image lightbox-trigger">
+            </div>
+            
+            <div class="subsection">
+            <p class="project-section-description">We identified that starting with filling in the content details is where the friciton starts all the way through fixing any rejected assets with errors.</p>
+            </div>
+        </section>
+
+
+        <!-- IDEATE SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Ideate</h2>
+                <p class="project-section-description">The base framework was in place with the side-by-side editing panel, so the focus was about incorporating critically missing functionality and simplifying the form, adding key pieces of information, and how to add AI features.</p>
+            </div>
+
+            <div class="project-section-two-images">
+                
+                <div class="project-section-images">
+                
+                    <img src="./images/contributor/ideate-left.jpg" alt="Portfolio page" class="portfolio-edit-image lightbox-trigger">
+                    
+                    <p class="other-projects-description">I focused on reformatting the content to fit within the new framework including key pieces of glanceable information on the cards, and reorganizing the panel to reduce cognitive load.
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+                    
+                    <img src="./images/contributor/ideate-right.jpg" alt="Edit modal" class="edit-modal-image lightbox-trigger">
+                
+                    <p class="other-projects-description">By clicking on the AI Auto-fill CTA, the platform will auto-generate a description and keywords for the selected images and all the contributor has to do is review, edit, and submit.
+                    </p>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- USER TESTING RESULTS SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">User testing results</h2>
+                <p class="project-section-description">After several design critiques with different stakeholders, I ran the designs through usability testing to ensure it passed usability and that the new designs closely matched user's expectations. The method I used was unmoderated interviews via UserZoom.</p>
+            </div>
+
+            <div class="project-section-two-images">
+                
+                <div class="project-section-images">
+
+                    <img src="./images/contributor/ut-left.jpg" alt="User testing results" class="ut-image lightbox-trigger">
+
+                </div>
+
+                <div class="project-section-images">
+
+                    <img src="./images/contributor/ut-right.jpg" alt="User testing results" class="ut-image lightbox-trigger">
+
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">Learnings</h2>
+                <p class="project-section-description">Overall, the new experience was successful passing all of the usability tasks with only minor adjustments needed. The AI auto-fill feature was well received by participants, and majority of the reactions found it very helpful. The feedback helped us refine the designs and helped us gauge their interest in capabilities that will save them a lot of time by streamlining the submission process.</p>
+            </div>
+
+        </section>
+
+
+        <!-- ENGINEER HANDOFF SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Engineer handoff</h2>
+                <p class="project-section-description">Our engineer team was integral throughout the entire process as they had historical knowledge of how the site functioned and how we could efficiently pivot and make the necessary changes to improve the experience. We were in constant communication through grooming and feedback sessions and I provided extensive documentation of the functionality, grid system, and all of the edge cases.</p>
+            </div>
+
+            <div class="project-section-one-image">
+                <img src="./images/contributor/handoff.jpg" alt="design handoff" class="design-handoff-image">
+            </div>
+
+        </section>
+
+
+        <!-- FINAL DESIGNS SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Final designs</h2>
+            </div>
+
+            <div class="project-section-two-images">
+                
+                <div class="project-section-images">
+
+                    <img src="./images/contributor/final-left.jpg" alt="final portfolio screen" class="final-image lightbox-trigger">
+
+                </div>
+
+                <div class="project-section-images">
+
+                    <img src="./images/contributor/final-right.jpg" alt="AI autofill" class="final-image lightbox-trigger">
+
+                </div>
+            </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">Conclusion</h2>
+                    <p class="project-section-description">The new experience outperformed the legacy experience with both casual and power users.
+                    </p>
+                </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">Success metrics</h2>
+
+                    <ul class="project-section-description">
+                        <li>Boost in submission volume velocity</li>
+                        <li>Increase in user engagement comparing between the legacy and the new experience</li>
+                        <li>Increase in total library growth</li>
+                      </ul>
+                </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">1. Results</h2>
+
+                    <div class="all-results">
+                        <div class="results">
+                            <h1>+5%</h1>
+                            <p>Boost in submission volume velocity
+                            </p>
+                        </div>
+
+                        <div class="results">
+                            <h1>+27%</h1>
+                            <p>Increase in total library growth
+                            </p>
+                        </div>
+
+                        <div class="results">
+                            <h1>+4%</h1>
+                            <p>Increase in Free trial signups
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h2 class="subsection-header">2. Takeaways </h2>
+
+                    <ul class="project-section-description">
+                        <li>The variant saw increased click activity on specifically promoted elements, demonstrating the ability of the new nav design to promote specific products/ features </li>
+                        <li>Add later</li>
+                        <li>Add later</li>
+                      </ul>
+                </div>
+
+        </section>
+
+
+
+
+
+
+        
+
+
+
+
+                
+        <!-- OTHER PROJECTS -->
+        <section class="other-projects-container">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">More Projects</h2>
+            </div>
+                
+            <div class="other-projects">
+                                
+                <!-- JPMC -->
+                <a href="./jpmc" class="link-jpmc-container">
+                    <div class="jpmc">
+                        <div class="other-projects-images">
+                            <img src="./images/jpmc.jpeg" alt="JPMC Image" class="jpmc-image">
+                        </div>  
+                        <h2 class="other-projects-title">J. P. Morgan Chase</h2>
+                        <p class="other-projects-description">Increased our advisors' productivity by streamlining their tools in a web of interconnected applications</p>
+                    </div>
+                </a>
+                
+                <!-- COACH -->
+                <a href="./sstk" class="link-coach-container">
+                    <div class="coach">
+                        <div class="other-projects-images">
+                            <img src="./images/coach.jpeg" alt="Coach Image" class="coach-image">  
+                        </div>
+                        <h2 class="other-projects-title">Coach USA</h2>
+                        <p class="other-projects-description"> Revamped their ticket fares website and created a commuter mobile app.</p>
+                    </div>
+                </a>
+
+                <!-- FOSSIL -->
+                <a href="./fossil" class="link-fossil-container">
+                    <div class="fossil">
+                        <div class="other-projects-images">
+                            <img src="./images/fossil.jpg" alt="Fossil Image" class="fossil-image">  
+                        </div>
+                        <h2 class="other-projects-title">Fossil</h2>
+                        <p class="other-projects-description">Reimagined how users customize their hybrid smartwatch</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+
+
+
+        
+            </main>
+   
+
+        
+
+    <!-- Footer -->
+
+   <footer class="footer">
+    <nav>
+        <ul class="nav-links">
+            <a href="mailto:joshjoonlee@gmail.com" class="nav-item">
+                <i class="fa-light fa-at"></i>
+                <li>Email me</li>
+            </a>
+            <a href="https://www.linkedin.com/in/joshualeeux" class="nav-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <li>LinkedIn</li>
+            </a>
+        </ul>
+    </nav>
+    
+    <p class="footer-copyright">&copy; 2025 Joshua Lee • All rights reserved</p>
+    </footer>
+   
+   
+    </div>
+
+    <script>
+        // Get the lightbox and its content elements
+        const lightbox = document.querySelector('.lightbox');
+        const fullImage = document.querySelector('.full-image');
+        const closeButton = document.querySelector('.close');
+      
+        // Add event listeners to all lightbox-trigger images
+        document.querySelectorAll('.lightbox-trigger').forEach((img) => {
+          img.addEventListener('click', () => {
+            fullImage.src = img.src; // Set the full-image source to the clicked image's source
+            fullImage.alt = img.alt; // Set the alt text
+            lightbox.classList.add('show');
+          });
+        });
+      
+        // Close the lightbox when the close button is clicked
+        closeButton.addEventListener('click', () => {
+          lightbox.classList.remove('show');
+        });
+      
+        // Optional: Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox) {
+            lightbox.classList.remove('show');
+          }
+        });
+
+        // JavaScript for fade-in effect
+        const fadeText = document.querySelector('.fade-text');
+
+        window.addEventListener('scroll', () => {
+        // Define when the fade should start and stop
+        const startFade = 100; // Distance in pixels from the top to start fading
+        const endFade = 200;  // Distance in pixels from the top to finish fading
+        
+        // Get the current scroll position
+        const scrollY = window.scrollY;
+
+        // Calculate opacity based on scroll position
+        if (scrollY >= startFade && scrollY <= endFade) {
+            // Calculate the fade-in progress
+            const progress = (scrollY - startFade) / (endFade - startFade);
+            fadeText.style.opacity = progress; // Update opacity
+        } else if (scrollY < startFade) {
+            fadeText.style.opacity = 0; // Hide text when above startFade
+        } else if (scrollY > endFade) {
+            fadeText.style.opacity = 1; // Fully show text after endFade
+        }
+        });
+
+
+        // Select the hamburger button and menu container
+        const hamburger = document.querySelector('.hamburger');
+        const hamburgerContainer = document.querySelector('.hamburger-container');
+        const menuBackdrop = document.querySelector('.menu-backdrop');
+        const closeMenuButton = document.querySelector('.close-menu');
+        
+        // Function to toggle the menu
+        function toggleMenu() {
+            hamburgerContainer.classList.toggle('active');
+            menuBackdrop.style.display = hamburgerContainer.classList.contains('active') ? 'block' : 'none';
+        }
+
+        // Function to close the menu
+        function closeMenu() {
+            hamburgerContainer.classList.remove('active');
+            menuBackdrop.style.display = 'none';
+        }
+
+        // Function to close the menu if clicking outside the menu
+        function handleOutsideClick(event) {
+             if (!hamburgerContainer.contains(event.target) && !hamburger.contains(event.target)) {
+             hamburgerContainer.classList.remove('active');
+            }
+        }
+
+        // Event listeners
+        hamburger.addEventListener('click', toggleMenu);
+        closeMenuButton.addEventListener('click', closeMenu);
+        document.addEventListener('click', handleOutsideClick);
+        menuBackdrop.addEventListener('click', closeMenu);
+
+      </script>
+
+</body>
+</html>
+

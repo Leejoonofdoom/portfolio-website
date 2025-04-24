@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Lee's Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div class="grid-container">
+            
+        <!-- Header (Top Nav) -->
+        <header class="top-nav">
+            <div class="nav-left">
+                <a class="logo" href="./index.html"><img src="./images/logo.jpeg" alt="My logo"/></a>
+                <a href="#projects" class="nav-item">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <li>Back to Projects</li>
+                </a>
+            </div>    
+
+            <nav>
+                <ul class="nav-links">
+                    <a href="#projects" class="nav-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <li>Projects</li>
+                    </a>
+                    <a href="#resume" class="nav-item">
+                        <i class="fa-solid fa-file"></i>
+                        <li>Resume</li>
+                    </a>
+                    <a href="#about-me" class="nav-item">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <li>About me</li>
+                    </a>
+                </ul>
+            </nav>
+            </header>
+
+            <!-- MOBILE NAVIGATION -->
+            <div class="mobile-menu">
+                <a class="logo" href="./index.html"><img src="./images/logo.jpeg" alt="My logo"/></a>
+                <button class="hamburger">☰</button>
+                <nav class="hamburger-container">
+                    <span class="close-menu">&times;</span>
+                    <ul class="mobile-nav-links">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-backdrop"></div>
+            </div>
+
+            <!-- Side navigaion -->
+            <div class="side-nav">
+                <h2 class="side-nav-name">Prudential Financial</h2>
+            </div>
+
+            <!-- Hero Area -->
+            <section class="hero-pru">
+                <!--<div class="hero-title">
+                    <h1>Joshua Lee</h1>
+                    <h3>Sr. Product Designer</h3>
+                    </div>-->
+
+            </section>
+      
+         <!-- Main Content -->
+        <main class="content">
+                
+            <!-- Project summary -->
+            <div class="summary">
+                    
+                <!-- Lightbox Markup (only once in your HTML) -->
+                <div class="lightbox">
+                    <div class="lightbox-content">
+                        <div class="lightbox-image-wrapper">
+                        <img src="" alt="Enlarged image" class="full-image">
+                        <span class="close">&times;</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="summary-details">
+                    <div class="detail-items">
+                        <p>My role</p>
+                        <h3>Design lead</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Duration</p>
+                        <h3>6 months</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Activities</p>
+                        <h3>UX/UI design, user research</h3>
+                    </div>
+
+                    <div class="detail-items">
+                        <p>Platform</p>
+                        <h3>Mobile app</h3>
+                    </div>
+                </div>
+            </div>
+
+        <!-- OVERVIEW SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">Overview</h2>
+                <p class="project-section-description">In 2019, Prudential realized the need to bring a richer mobile experience for their retirement product offerings as an upgrade to their outdated desktop web experience.
+                <br><br>
+                Prudential initially launched their mobile app with <strong>Contributions</strong> as research showed contributing to a 401k was a major activity for users. The next goal was to add more features and improve financial wellness by adding <strong>Investment Allocations</strong> and <strong>Transfers</strong>.
+                </p>
+            </div>
+        </section>
+
+        <!-- DESIGN SPRINT SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">DESIGN SPRINT</h2>
+                <p class="project-section-description">At Prudential, we started initiatives with design sprints to validate our ideas and assumptions. We held a few working sessions and gathered customer research before the sprint week.
+                </p>
+            </div>
+
+            <div class="project-section-two-images">
+
+                <div class="project-section-images">
+                
+                    <img src="./images/pru/pru-design-sprint.png" alt="Coach schedule screen" class="coach-schedule lightbox-trigger">
+
+                </div>
+
+            </div>
+
+            <div class="subsection">
+                <p class="project-section-description">We concluded the sprint with a working prototype and specific next steps. We held further working sessions to build out the rest of the experience.</p>
+
+            </div>
+
+        </section>
+
+        <!-- RESEARCH QUESTION SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">How might we streamline updating various investment activities and ensure safety and privacy?</h2>
+            </div>
+
+        </section>
+
+        <!-- EXECUTION MODE SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">EXECUTION MODE</h2>
+                <p class="project-section-description">With the happy paths mapped out, we still needed to create all of the edge cases and nuances that we couldn't fit into the design sprint. It took many months of iterating, vetting the designs with the retirement team, legal team and compliance.
+                <br><br>
+                The biggest and most complex challenge was figuring out how to include all the mandatory messages we needed to show the users as they allocated to different funds and transferred funds between accounts. This required the team to develop several iterations on a messaging system.
+                </p>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">INVESTMENT ALLOCATIONS KEY INTERACTIONS</h2>
+            </div>
+
+            <div class="project-section-two-images">
+
+                <div class="project-section-images">
+                
+                    <img src="./images/pru/pru-investments-tab.jpg" alt="Pru investments screen" class="pru-investments-tab lightbox-trigger">
+
+                    <p class="other-projects-description">Investments tab
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+            
+                    <img src="./images/pru/pru-adjust-investments.jpg" alt="Coach app search screen" class="pru-adjust-investments lightbox-trigger">
+                
+                    <p class="other-projects-description">Investment options
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+
+                    <img src="./images/pru/pru-allocations.jpg" alt="Allocations main screen" class="pru-allocations lightbox-trigger">
+                
+                    <p class="other-projects-description">Adjust or add or remove allocations
+                    </p>
+                </div>
+                
+                <div class="project-section-images">
+
+                    <img src="./images/pru/pru-allocations-changes.jpg" alt="Pru allocations changes screen" class="pru-allocations-changes lightbox-trigger">
+                
+                    <p class="other-projects-description">Review changes before confirming
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+
+                    <img src="./images/pru/pru-allocations-confirmation.jpg" alt="Pru allocations confirmation screen" class="pru-allocations-confirmation lightbox-trigger">
+                
+                    <p class="other-projects-description">Confirmation of changes
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">TRANSFERS KEY INTERACTIONS</h2>
+            </div>
+
+            <div class="project-section-two-images">
+
+                <div class="project-section-images">
+                
+                    <img src="./images/pru/pru-investments-tab.jpg" alt="Pru investments screen" class="pru-investments-tab lightbox-trigger">
+
+                    <p class="other-projects-description">Investments tab
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+            
+                    <img src="./images/pru/pru-adjust-investments.jpg" alt="Coach app search screen" class="pru-adjust-investments lightbox-trigger">
+                
+                    <p class="other-projects-description">Investment options
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+
+                    <img src="./images/pru/pru-transfers.jpg" alt="Transfers main screen" class="pru-transfers lightbox-trigger">
+                
+                    <p class="other-projects-description">Select which fund to transfer from
+                    </p>
+                </div>
+                
+                <div class="project-section-images">
+
+                    <img src="./images/pru/pru-transfers-changes.jpg" alt="Pru transfers changes screen" class="pru-transfers-changes lightbox-trigger">
+                
+                    <p class="other-projects-description">Make changes to equal 100%
+                    </p>
+                </div>
+
+                <div class="project-section-images">
+
+                    <img src="./images/pru/pru-transfers-confirmation.jpg" alt="Pru transfers confirmation screen" class="pru-transfers-confirmation lightbox-trigger">
+                
+                    <p class="other-projects-description">Confirmation of changes
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="subsection">
+                <p class="project-section-description">To make a transfer, the user would select the from fund and one or more to funds and adjust the percentages. They would be able to review their changes before submitting and then receive a confirmation.</p>
+
+            </div>
+
+
+
+        <!-- APP LAUNCH SECTION -->
+        <section class="project-section">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">APP LAUNCH</h2>
+                <p class="project-section-description">We successfully launched both features: Investment Allocations in November 2019 and Transfers in January 2020. With managing such complexity and many moving parts, it was incredible we were able to successfully launch and provide much desired functionality to our customer base on the go.
+                <br><br>
+                Below illustrates the impact our efforts and hard work.
+                </p>
+            </div>
+
+            <div class="subsection">
+                <h2 class="subsection-header">The results</h2>
+
+                <div class="all-results">
+                    <div class="results">
+                        <h1>+3.5%</h1>
+                        <p>Rating improvement on the iOS App store from 1.4 rating
+                        </p>
+                    </div>
+
+                    <div class="results">
+                        <h1>+2%</h1>
+                        <p>Increase in downloads 
+
+                            (now at 373k)<br><br>
+                        </p>
+                    </div>
+
+                    <div class="results">
+                        <h1>+3%</h1>
+                        <p>Increase in daily average visits<br><br>
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="subsection">
+                <h2 class="subsection-header">What I would've done differently </h2>
+
+                <ul class="project-section-description">
+                    <li>Define expectations and the role more clearly to avoid unexpected scope creep</li>
+                    <li>Allow for more time to conduct deeper user research to better guide design decisions</li>
+                  </ul>
+            </div>
+
+        </section>
+
+                
+        <!-- OTHER PROJECTS -->
+        <section class="other-projects-container">
+            <div class="project-section-header-description">
+                <h2 class="project-section-header">More Projects</h2>
+            </div>
+                
+            <div class="other-projects">
+                                
+                <!-- SSTK -->
+                <a href="./sstk" class="link-jpmc-container">
+                    <div class="sstk">
+                        <div class="other-projects-images">
+                            <img src="./images/sstk.jpg" alt="JPMC Image" class="jpmc-image">
+                        </div>  
+                        <h2 class="other-projects-title">Shutterstock</h2>
+                        <p class="other-projects-description"> Connected customers to their desired content faster and removed friction from the submitting content for contributors</p>
+                    </div>
+                </a>
+                
+                <!-- JPMC -->
+                <a href="./jpmc" class="link-jpmc-container">
+                    <div class="jpmc">
+                        <div class="other-projects-images">
+                            <img src="./images/jpmc.jpeg" alt="JPMC Image" class="jpmc-image">
+                        </div>  
+                        <h2 class="other-projects-title">J. P. Morgan Chase</h2>
+                        <p class="other-projects-description">Increased our advisors' productivity by streamlining their tools in a web of interconnected applications</p>
+                    </div>
+                </a>
+
+                <!-- FOSSIL -->
+                <a href="./fossil" class="link-fossil-container">
+                    <div class="fossil">
+                        <div class="other-projects-images">
+                            <img src="./images/fossil.jpg" alt="Fossil Image" class="fossil-image">  
+                        </div>
+                        <h2 class="other-projects-title">Fossil</h2>
+                        <p class="other-projects-description">Reimagined how users customize their hybrid smartwatch</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+
+
+
+        
+            </main>
+   
+
+        
+
+    <!-- Footer -->
+
+   <footer class="footer">
+    <nav>
+        <ul class="nav-links">
+            <a href="mailto:joshjoonlee@gmail.com" class="nav-item">
+                <i class="fa-light fa-at"></i>
+                <li>Email me</li>
+            </a>
+            <a href="https://www.linkedin.com/in/joshualeeux" class="nav-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <li>LinkedIn</li>
+            </a>
+        </ul>
+    </nav>
+    
+    <p class="footer-copyright">&copy; 2025 Joshua Lee • All rights reserved</p>
+    </footer>
+   
+   
+    </div>
+
+    <script>
+        // Get the lightbox and its content elements
+        const lightbox = document.querySelector('.lightbox');
+        const fullImage = document.querySelector('.full-image');
+        const closeButton = document.querySelector('.close');
+      
+        // Add event listeners to all lightbox-trigger images
+        document.querySelectorAll('.lightbox-trigger').forEach((img) => {
+          img.addEventListener('click', () => {
+            fullImage.src = img.src; // Set the full-image source to the clicked image's source
+            fullImage.alt = img.alt; // Set the alt text
+            lightbox.classList.add('show');
+          });
+        });
+      
+        // Close the lightbox when the close button is clicked
+        closeButton.addEventListener('click', () => {
+          lightbox.classList.remove('show');
+        });
+      
+        // Optional: Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox) {
+            lightbox.classList.remove('show');
+          }
+        });
+
+        // JavaScript for fade-in effect
+        const fadeText = document.querySelector('.fade-text');
+
+        window.addEventListener('scroll', () => {
+        // Define when the fade should start and stop
+        const startFade = 100; // Distance in pixels from the top to start fading
+        const endFade = 200;  // Distance in pixels from the top to finish fading
+        
+        // Get the current scroll position
+        const scrollY = window.scrollY;
+
+        // Calculate opacity based on scroll position
+        if (scrollY >= startFade && scrollY <= endFade) {
+            // Calculate the fade-in progress
+            const progress = (scrollY - startFade) / (endFade - startFade);
+            fadeText.style.opacity = progress; // Update opacity
+        } else if (scrollY < startFade) {
+            fadeText.style.opacity = 0; // Hide text when above startFade
+        } else if (scrollY > endFade) {
+            fadeText.style.opacity = 1; // Fully show text after endFade
+        }
+        });
+        
+        
+        // Select the hamburger button and menu container
+        const hamburger = document.querySelector('.hamburger');
+        const hamburgerContainer = document.querySelector('.hamburger-container');
+        const menuBackdrop = document.querySelector('.menu-backdrop');
+        const closeMenuButton = document.querySelector('.close-menu');
+        
+        // Function to toggle the menu
+        function toggleMenu() {
+            hamburgerContainer.classList.toggle('active');
+            menuBackdrop.style.display = hamburgerContainer.classList.contains('active') ? 'block' : 'none';
+        }
+
+        // Function to close the menu
+        function closeMenu() {
+            hamburgerContainer.classList.remove('active');
+            menuBackdrop.style.display = 'none';
+        }
+
+        // Function to close the menu if clicking outside the menu
+        function handleOutsideClick(event) {
+             if (!hamburgerContainer.contains(event.target) && !hamburger.contains(event.target)) {
+             hamburgerContainer.classList.remove('active');
+            }
+        }
+
+        // Event listeners
+        hamburger.addEventListener('click', toggleMenu);
+        closeMenuButton.addEventListener('click', closeMenu);
+        document.addEventListener('click', handleOutsideClick);
+        menuBackdrop.addEventListener('click', closeMenu);
+
+    </script>
+
+</body>
+</html>
+
